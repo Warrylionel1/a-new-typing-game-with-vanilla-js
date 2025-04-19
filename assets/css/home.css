@@ -30,7 +30,7 @@ nav img {
 }
 
 body {
-    background-image: url(../Photo/background.jpg);
+    background-image: url(../Photo/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,6 +38,7 @@ body {
 .body h1 {
     text-align: center;
     font-size: xx-large;
+    color: white;
     margin-top: 15%;
     animation: fadeInUp 1s ease-out forwards;
     opacity: 0;
@@ -65,7 +66,12 @@ body {
     transform: scale(1.1);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
-
+.description {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
 
 
 @keyframes fadeInUp {
