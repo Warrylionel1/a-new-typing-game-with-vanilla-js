@@ -7,16 +7,22 @@
     <title>Type Master</title>
 </head>
 <body>
-    
     <div class="body">
         <h1>WELCOME TO <br> 🔥 TYPE MASTER 🔥</h1>
-        <form action="home.html">
-            <label>Usrename</label><br>
-            <input type="text" name="name" required><br>
-            <label>Password</label><br>
-            <input type="password" name="password" required><br>
-            <input type="submit" value="Login">
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <p id="errorMessage" class="error-message" style="display: none;">Invalid username or password.</p>
         </form>
     </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

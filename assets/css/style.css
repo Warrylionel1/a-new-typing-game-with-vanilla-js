@@ -24,56 +24,11 @@ h1{
 }
 
 
-#darkModeToggle {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    background: rgba(255, 255, 255, 0.7);
-    border: none;
-    border-radius: 50%;
-    padding: 0.6rem;
-    cursor: pointer;
-    font-size: 1.2rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s ease;
-}
-
-#darkModeToggle:hover {
-    background: rgba(255, 255, 255, 0.9);
-}
-
-
-body.dark-mode {
-    background-color: #121212;
-    background-image: none;
-    color: white;
-}
-
-body.dark-mode form {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-body.dark-mode input[type="text"],
-body.dark-mode input[type="password"] {
-    background-color: #222;
-    color: white;
-}
-
-body.dark-mode input[type="submit"] {
-    background-color: #bb86fc;
-}
-
-body.dark-mode label {
-    color: #eee;
-}
-
 
 .body{
         background-image: url(../photo/background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-    
-        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -103,7 +58,7 @@ form {
     width: 30vw;
     position: absolute;
     right: 0;
-    height: 100vh;
+    height: 50vh;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -128,7 +83,7 @@ input[type="password"] {
 }
 
 
-input[type="submit"] {
+button[type="submit"] {
     width: 100%;
     padding: 0.7rem;
     font-size: larger;
